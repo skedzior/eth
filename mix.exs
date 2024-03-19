@@ -31,7 +31,6 @@ defmodule Eth.Mixfile do
       {:ex_rlp, "~> 0.6.0"},
       {:ex_doc, ">= 0.29.4", only: :dev},
       {:dialyxir, "~> 1.3.0", only: [:dev], runtime: false},
-      {:hexate, "~> 0.6.1"},
       {:ex_keccak, "~> 0.7.1"},
       {:mnemonic, "~> 0.3.1"},
       {:poison, "~> 5.0.0", only: :test},
